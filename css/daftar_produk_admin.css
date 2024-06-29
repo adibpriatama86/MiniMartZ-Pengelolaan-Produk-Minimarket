@@ -1,0 +1,226 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFBE9 !important;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 1000px !important;
+    background-color: #F6E6CB;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+#tanggal {
+    font-size: 16px;
+    color: #AD8B73;
+    font-weight: bold;
+}
+
+.container-nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+.container-li {
+    background-color: #FFFBE9;
+    display: flex;
+    padding: 10px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a {
+    display: flex;
+    text-decoration: none;
+    color: #343a40;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 18px;
+    transition: background-color 0.3s;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+nav ul li a:hover {
+    background-color: #AD8B73;
+    color: #fff;
+}
+
+form#search {
+    margin-bottom: 20px;
+}
+
+form#search p {
+    display: flex;
+    align-items: center;
+}
+
+form#search label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+form#search input[type="text"] {
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 18px;
+    width: 250px;
+    margin-right: 10px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    opacity: .5;
+}
+
+form#search input[type="text"]:focus {
+    border-color: #AD8B73;
+    box-shadow: 0 0 5px rgba(173, 139, 115, 0.5);
+    opacity: 1;
+}
+
+
+form#search input[type="text"]:hover {
+    opacity: .8;
+    transition: ease-in-out .3s;
+    -webkit-transition: ease-in-out .3s;
+    -moz-transition: ease-in-out .3s;
+    -ms-transition: ease-in-out .3s;
+    -o-transition: ease-in-out .3s;
+}
+
+form#search input[type="submit"] {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 18px;
+    background-color: #CEAB93;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+form#search input[type="submit"]:hover {
+    background-color: #AD8B73;
+}
+
+form {
+    background-color: #FFFBE9;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: bold;
+    color: #6c757d;
+}
+
+.judul {
+    font-size: 24px !important;
+    margin-bottom: 20px;
+    color: #343a40;
+    font-weight: bold;
+    border-bottom: 2px solid #AD8B73;
+    padding-bottom: 10px;
+}
+
+.pesan {
+    padding: 15px;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+    border-radius: 18px;
+    margin-bottom: 20px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table-container {
+    overflow: hidden;
+    border-radius: 18px;
+    border: 1px solid #dee2e6;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+table.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+table.table th, table.table td {
+    background-color: #FFFBE9;
+    padding: 20px;
+    /* border-radius: 18px; */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+table.table td {
+    text-align: center;
+}
+
+table.table th {
+    background-color: #CEAB93;
+    color: #fff;
+}
+table.table td img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 5px;
+}
+
+.table-th {
+    text-align: center;
+}
+
+.pencarian {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
